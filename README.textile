@@ -1,13 +1,15 @@
-I am XiangLiang from China. You can visit my website http://sites.google.com/site/xlvector
+h1. Introduction
 
-Algorithms:
+I am XiangLiang from China. Here is my "homepage":http://sites.google.com/site/xlvector
 
-1) item-based KNN
+h1. Algorithms
 
-2) user-based KNN
+h2. item-based KNN
 
-3) using repos,language to boost KNN
+h2. user-based KNN
 
-4) hybird item-based KNN and user-based KNN
+h2. using repos,language to boost KNN
 
-5) bagging : blending different algos by bagging
+h2. hybird item-based KNN and user-based KNN
+
+h2. bagging : blending different algos by bagging
