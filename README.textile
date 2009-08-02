@@ -1,6 +1,7 @@
 h1. Introduction
 
 I am XiangLiang from China. Here is my "homepage":http://sites.google.com/site/xlvector
+You can follow me in the Twitter, my account is "xlvector"
 
 h1. Algorithms
 
