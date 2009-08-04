@@ -1,9 +1,0 @@
-I am XiangLiang from China.
-
-Algorithms:
-
-1) item-based KNN
-2) user-based KNN
-3) using repos,language to boost KNN
-4) hybird item-based KNN and user-based KNN
-5) bagging : blending different algos by bagging
