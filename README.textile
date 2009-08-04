@@ -5,12 +5,11 @@ You can follow me in the Twitter, my account is "xlvector"
 
 h1. Algorithms
 
-h2. item-based KNN
+I will reveal detail algorithms after the contest is ended
 
-h2. user-based KNN
+h1. License
 
-h2. using repos,language to boost KNN
+Before the contest is ended, you can not use my results.txt, however, it is free for you too use my source file.
 
-h2. hybird item-based KNN and user-based KNN
+After the contest is ended, you can use everything I pushed to github.
 
-h2. bagging : blending different algos by bagging
