@@ -1,0 +1,1 @@
+g++ -o uiknn main.cpp -I../include/

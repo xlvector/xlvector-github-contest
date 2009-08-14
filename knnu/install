@@ -1,0 +1,1 @@
+g++ -o uknn main.cpp -I../include/
