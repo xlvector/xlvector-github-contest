@@ -1,0 +1,4 @@
+./knn -m 0
+./knn -m 1
+./knn -p 0
+./knn -p 1

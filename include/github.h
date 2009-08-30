@@ -34,11 +34,15 @@ struct User{
      User(){
           begin_tm = INT_MAX;
           end_tm = 0;
+          max_line = 0;
+          min_line = INT_MAX;
      }
      map<string,float> language;
      map<string,float> repos;
      int begin_tm;
      int end_tm;
+     int max_line;
+     int min_line;
 };
 
 struct Item{
@@ -49,6 +53,7 @@ struct Item{
      map<string,float> repos;
      int tm, line;
      string all_lang;
+     string reponame;
      map<string,float> name;
      map<string,float> lang_line;
 };
@@ -174,6 +179,7 @@ void loadUserItemData(UserList & users, ItemList & items, vector<Rating> & data)
           int id,tm;
           string buf,name;
           iss >> id >> buf >> tm >> name;
+          items[id].reponame = buf + "/" + name;
           items[id].repos[buf] = 1;
           items[id].tm = tm;
           splitName(name, items[id].name);
@@ -190,6 +196,8 @@ void loadUserItemData(UserList & users, ItemList & items, vector<Rating> & data)
           int ii = data[i].item;
           users[uu].begin_tm = min<int>(users[uu].begin_tm, items[ii].tm);
           users[uu].end_tm = max<int>(users[uu].end_tm, items[ii].tm);
+          users[uu].max_line = max<int>(users[uu].max_line, items[ii].line);
+          users[uu].min_line = min<int>(users[uu].min_line, items[ii].line);
      }
 }
 
