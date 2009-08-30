@@ -5,7 +5,17 @@ You can follow me in the Twitter, my account is "xlvector"
 
 h1. Algorithms
 
-I will reveal detail algorithms after the contest is ended
+1. knni : item based knn
+2. knnu : user based knn
+3. knnui : hybrid item-user based knn
+4. knni-all : item based knn with language and reponame information
+5. knnu-all : user based knn with language and reponame information
+7. repos : using collaborator data (downloaded by github API)
+8. bagging : blending different algos
+
+9. In bagging/main.cpp, there are many pre-processing methods used
+1) diversity : we find it is very hard to predict recommendations for users who watches a lot of repos. So, making diversity recommendations can improve prodiction accuracy of these users.
+2) popularity : if a users does not view popular repos before, it means he may not like popular repos, so, we can delete popular repos in recommendation list.
 
 h1. License
 
